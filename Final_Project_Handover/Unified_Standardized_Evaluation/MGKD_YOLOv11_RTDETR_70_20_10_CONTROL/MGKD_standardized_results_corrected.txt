@@ -1,0 +1,20 @@
+Model: MGKD YOLOv11 -> RT-DETR
+Split: 70_20_10
+Test images: 51
+Checkpoint: /Users/kalamanjunatha/Downloads/sugarbeet/Experiments/Hybrid_Approaches/MGKD/results_control/MGKD_YOLOv11_RTDETR_70_20_10_CONTROL/best.pt
+Image size: 640
+Raw prediction confidence: 0.001
+Operating confidence: 0.25
+Evaluation IoU: 0.5
+
+P/R/F1 evaluated at confidence 0.25
+mAP50/mAP50-95 evaluated from predictions at confidence 0.001
+
+Precision: 0.501706
+Recall: 0.896341
+F1: 0.643326
+mAP50: 0.794314
+mAP50-95: 0.481239
+TP: 147
+FP: 146
+FN: 17

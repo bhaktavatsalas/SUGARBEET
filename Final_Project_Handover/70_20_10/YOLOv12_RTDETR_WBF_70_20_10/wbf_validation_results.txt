@@ -1,0 +1,13 @@
+YOLOv12 + RT-DETR WBF
+70:20:10 VALIDATION RESULTS
+
+Best YOLOv12 weight: 0.2
+Best RT-DETR weight: 0.8
+Best confidence: 0.25
+WBF IoU: 0.55
+
+Precision: 0.6174
+Recall: 0.8357
+F1: 0.7102
+mAP50: 0.7325
+mAP50-95: 0.4899

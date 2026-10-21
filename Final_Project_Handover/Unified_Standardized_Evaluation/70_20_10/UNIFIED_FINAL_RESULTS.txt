@@ -1,0 +1,60 @@
+UNIFIED STANDARDIZED EVALUATION
+Split: 70_20_10
+
+Settings:
+Prediction confidence: 0.001
+Evaluation confidence: 0.25
+Evaluation IoU: 0.5
+WBF IoU: 0.55
+WBF skip threshold: 0.05
+
+YOLOv11
+Precision: 0.703448
+Recall: 0.621951
+F1: 0.660194
+mAP50: 0.548577
+mAP50-95: 0.332721
+TP: 102
+FP: 43
+FN: 62
+
+YOLOv12
+Precision: 0.704225
+Recall: 0.609756
+F1: 0.653595
+mAP50: 0.534589
+mAP50-95: 0.322884
+TP: 100
+FP: 42
+FN: 64
+
+RT-DETR
+Precision: 0.627803
+Recall: 0.853659
+F1: 0.723514
+mAP50: 0.771852
+mAP50-95: 0.490652
+TP: 140
+FP: 83
+FN: 24
+
+YOLOv11 + RT-DETR WBF
+Precision: 0.676768
+Recall: 0.817073
+F1: 0.740331
+mAP50: 0.723026
+mAP50-95: 0.451114
+TP: 134
+FP: 64
+FN: 30
+
+YOLOv12 + RT-DETR WBF
+Precision: 0.671642
+Recall: 0.823171
+F1: 0.739726
+mAP50: 0.732982
+mAP50-95: 0.460782
+TP: 135
+FP: 66
+FN: 29
+

@@ -1,0 +1,8 @@
+path: /Users/kalamanjunatha/Downloads/sugarbeet/dataset_70_20_10_detection
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: sugarbeet

@@ -1,0 +1,19 @@
+YOLOv11 + RT-DETR Weighted Box Fusion
+Dataset Split: 70:20:10
+Evaluation Set: TEST
+
+LOCKED VALIDATION CONFIGURATION
+YOLOv11 Weight: 0.2
+RT-DETR Weight: 0.8
+Confidence Threshold: 0.25
+WBF IoU Threshold: 0.55
+
+FINAL TEST METRICS
+Precision: 0.676768
+Recall: 0.817073
+F1: 0.740331
+mAP50: 0.719427
+mAP50-95: 0.450637
+TP: 134
+FP: 64
+FN: 30

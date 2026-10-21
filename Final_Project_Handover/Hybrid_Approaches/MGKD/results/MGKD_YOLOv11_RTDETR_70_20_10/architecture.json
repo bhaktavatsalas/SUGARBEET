@@ -1,0 +1,25 @@
+{
+  "teacher": "YOLOv11",
+  "student": "RT-DETR",
+  "teacher_feature_layers": {
+    "low": 16,
+    "mid": 19,
+    "high": 22
+  },
+  "student_feature_layers": {
+    "low": 21,
+    "mid": 24,
+    "high": 27
+  },
+  "granularities": {
+    "low": "80x80",
+    "mid": "40x40",
+    "high": "20x20"
+  },
+  "prediction_distillation": true,
+  "student_native_detection_loss": true,
+  "teacher_frozen": true,
+  "teacher_prediction_conf": 0.1,
+  "evaluation_conf": 0.25,
+  "evaluation_iou": 0.5
+}

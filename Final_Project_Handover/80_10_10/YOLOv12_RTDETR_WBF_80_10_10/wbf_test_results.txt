@@ -1,0 +1,17 @@
+YOLOv12 + RT-DETR WBF
+FINAL 80:10:10 TEST RESULTS
+
+YOLOv12 weight : 0.2
+RT-DETR weight : 0.8
+Confidence     : 0.25
+WBF IoU        : 0.55
+
+Precision : 0.6041
+Recall    : 0.7391
+F1 Score  : 0.6648
+mAP50     : 0.6314
+mAP50-95  : 0.3984
+
+TP : 119
+FP : 78
+FN : 42

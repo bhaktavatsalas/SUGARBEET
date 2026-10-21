@@ -1,0 +1,16 @@
+RT-DETR CUSTOM STANDARDIZED EVALUATION
+80:10:10 TEST SET
+
+Confidence threshold: 0.25
+IoU matching threshold: 0.5
+Image size: 640
+
+Precision: 0.5322
+Recall: 0.7702
+F1: 0.6294
+mAP50: 0.6489
+mAP50-95: 0.4050
+
+TP: 124
+FP: 109
+FN: 37

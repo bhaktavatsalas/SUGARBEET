@@ -1,0 +1,38 @@
+80:10:10 FAIR TEST COMPARISON
+YOLOv11 vs RT-DETR vs YOLOv11 + RT-DETR WBF
+
+Confidence threshold: 0.25
+WBF IoU threshold: 0.55
+YOLOv11 WBF weight: 0.3
+RT-DETR WBF weight: 0.7
+
+YOLOv11
+Precision: 0.6144
+Recall: 0.5839
+F1: 0.5987
+mAP50: 0.4829
+mAP50-95: 0.3072
+TP: 94
+FP: 59
+FN: 67
+
+RT-DETR
+Precision: 0.5322
+Recall: 0.7702
+F1: 0.6294
+mAP50: 0.6489
+mAP50-95: 0.4050
+TP: 124
+FP: 109
+FN: 37
+
+YOLOv11 + RT-DETR WBF
+Precision: 0.5270
+Recall: 0.7888
+F1: 0.6318
+mAP50: 0.6516
+mAP50-95: 0.4078
+TP: 127
+FP: 114
+FN: 34
+

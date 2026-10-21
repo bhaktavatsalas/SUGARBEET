@@ -1,0 +1,38 @@
+{
+  "mode": "mgkd",
+  "experiment": "y11_rt_70",
+  "teacher_name": "YOLOv11",
+  "teacher_model": "/Users/kalamanjunatha/Downloads/sugarbeet/Experiments/70_20_10/YOLOv11_70_20_10_Detection/weights/best.pt",
+  "student_model": "/Users/kalamanjunatha/Downloads/sugarbeet/Experiments/70_20_10/RT_DETR_70_20_10/weights/best.pt",
+  "dataset": "/Users/kalamanjunatha/Downloads/sugarbeet/dataset_70_20_10_detection",
+  "split": "70_20_10",
+  "device": "mps",
+  "seed": 42,
+  "image_size": 640,
+  "batch_size": 1,
+  "epochs": 50,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "grad_clip": 5.0,
+  "flip_prob": 0.5,
+  "bn_frozen": true,
+  "train_from_layer": 21,
+  "student_feature_layers": [
+    21,
+    24,
+    27
+  ],
+  "student_decoder_layer": 28,
+  "lambdas": {
+    "low": 0.05,
+    "mid": 0.05,
+    "high": 0.1,
+    "pred": 0.1
+  },
+  "feature_kd": "attention_transfer_sum_sq_l2",
+  "teacher_conf": 0.25,
+  "pred_match_iou": 0.5,
+  "pred_score_weight": 0.5,
+  "cache_version": "mgkd_v3_square_letterbox",
+  "selection": "val fitness (0.1*mAP50 + 0.9*mAP50-95), conf=0.001, iou=0.7"
+}

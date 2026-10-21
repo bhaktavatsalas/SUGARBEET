@@ -1,0 +1,16 @@
+YOLOv11 CUSTOM STANDARDIZED EVALUATION
+80:10:10 TEST SET
+
+Confidence threshold: 0.25
+IoU matching threshold: 0.5
+Image size: 640
+
+Precision: 0.6144
+Recall: 0.5839
+F1: 0.5987
+mAP50: 0.4829
+mAP50-95: 0.3072
+
+TP: 94
+FP: 59
+FN: 67

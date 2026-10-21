@@ -1,0 +1,18 @@
+YOLOv11 + RT-DETR Weighted Box Fusion
+FINAL 80:10:10 TEST EVALUATION
+
+WBF Configuration
+YOLOv11 Weight: 0.3
+RT-DETR Weight: 0.7
+Confidence Threshold: 0.25
+WBF IoU Threshold: 0.55
+
+TEST RESULTS
+Precision: 0.609137
+Recall: 0.745342
+F1 Score: 0.670391
+mAP50: 0.593074
+mAP50-95: 0.375663
+TP: 120
+FP: 77
+FN: 41

@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "mode": "control",
+  "experiment": "y11_rt_70",
+  "run_name": "MGKD_YOLOv11_RTDETR_70_20_10_CONTROL",
+  "teacher": null,
+  "student": "RT-DETR",
+  "split": "70_20_10",
+  "epochs": 50,
+  "batch_size": 1,
+  "seed": 42,
+  "checkpoint_selection": "validation fitness",
+  "best_epoch": 4,
+  "best_val_metrics": {
+    "val_precision": 0.7177015020276084,
+    "val_recall": 0.7678571428571429,
+    "val_mAP50": 0.7819611568864809,
+    "val_mAP50_95": 0.5113848416744868,
+    "val_fitness": 0.5384424731956863
+  },
+  "best_checkpoint": "/Users/kalamanjunatha/Downloads/sugarbeet/Experiments/Hybrid_Approaches/MGKD/results_control/MGKD_YOLOv11_RTDETR_70_20_10_CONTROL/best.pt",
+  "last_checkpoint": "/Users/kalamanjunatha/Downloads/sugarbeet/Experiments/Hybrid_Approaches/MGKD/results_control/MGKD_YOLOv11_RTDETR_70_20_10_CONTROL/last.pt",
+  "reporting_note": "Evaluate best.pt of the MGKD run, the CONTROL run and the RT-DETR baseline on the TEST split with the standardized evaluator. P/R/F1 at the operating confidence (e.g. 0.25); mAP50 and mAP50-95 at conf=0.001, identically for all models."
+}
